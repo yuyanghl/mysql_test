@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 {
     // Get database access parameters from command lin
     // Connect to the sample database.
+    int a;
     mysqlpp::Connection conn(false);
     if (conn.connect("my_db", "localhost", "root", "9865"))
     {
